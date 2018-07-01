@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
-        //favoriteDbHelper = new FavoriteDbHelper(activity);
+        
 
 
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.main_content);
